@@ -15,6 +15,7 @@ namespace SnakeAndLadder
         public int RollDie()
         {
             int rollDie = random.Next(1, 7);
+            Console.WriteLine("Die value: " + rollDie);
             count++;
             return rollDie;
         }
