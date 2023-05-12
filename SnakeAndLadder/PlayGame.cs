@@ -53,5 +53,12 @@ namespace SnakeAndLadder
             }
             return playerPosition;
         }
+        public void TwoPlayers(int player1, int player2)
+        {
+            if (player1 == WINNING_POSITION)
+                Console.WriteLine("Player 1 Won the Game");
+            if (player2 == WINNING_POSITION)
+                Console.WriteLine("Player 2 Won the Game");
+        }
     }
 }
